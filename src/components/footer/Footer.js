@@ -4,38 +4,45 @@ import './Footer.css'
 function Footer() {
     return (
     <>
-        <footer id='footer'>
-            <div className='container'>
-                <div className='flex-container'>
-                    <ul className='footer-menu'>
-                        <li className='footer-item'>
+        <section id='subscribe'>
+                    <div className='footer-container'>
+                        <h2>Subscribe to our newsletter!</h2>
+                        <p className='blurb'>Sign up to never miss out on opportunities and events.</p>
+                    
+                        <form action="#" method="post" name="sign up">
+                            <div className="input">
+                                <input type="text" id="email" name="email" placeholder="Email" />
+                                <input type="submit" id="submit" value="SUBSCRIBE" />
+                            </div>
+                        </form>
+                    </div>
+                    <div className='footer-menu'>
+                        <div className='footer-item'>
                             <a href="mailto: wicsccny@gmail.com">
-                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/ffffff/gmail.png" alt=""/>
+                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/gmail.png" alt=""/>
                             </a>
-                        </li>
+                        </div>
 
-                        <li className='footer-item'>
+                        <div className='footer-item'>
                             <a href="https://www.instagram.com/wics.ccny/?hl=en">
-                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/ffffff/instagram-new--v1.png" alt=""/>
+                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/instagram-new--v1.png" alt=""/>
                             </a>
-                        </li>
+                        </div>
                         
-                        <li className='footer-item'>
-                            <a href="https://facebook.com/">
-                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/ffffff/facebook.png" alt=""/>
+                        <div className='footer-item'>
+                            <a href="https://www.facebook.com/groups/ccnywics">
+                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/facebook.png" alt=""/>
                             </a>
-                        </li> 
+                        </div> 
                         
-                        <li className='footer-item'>
-                            <a href="https://www.linkedin.com/in/">
-                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/ffffff/linkedin.png" alt=""/>
+                        <div className='footer-item'>
+                            <a href="https://www.linkedin.com/company/women-in-computer-science-at-ccny/">
+                            <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/linkedin.png" alt=""/>
                             </a>
-                        </li>                
-                    </ul> 
-                </div>   
-                <p style={{color: '#FFFFFF'}}>Copyright &copy; 2021 CCNY Wics.  All Rights Reserved</p>
-            </div>
-        </footer> 
+                        </div>                 
+                    </div>   
+                    <p className='copy'>Copyright &copy; 2021 CCNY Wics.  All Rights Reserved</p>
+        </section> 
     </>
   )
 }

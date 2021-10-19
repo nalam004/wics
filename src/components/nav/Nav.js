@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Nav.css'; 
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 
 function Nav() {
     const [click, setClick] = useState(false);
@@ -30,9 +30,9 @@ function Nav() {
 
     return (
     <>
-            <nav className='navbar' style={{background: scrollState === "top" ? "linear-gradient(180deg, rgba(175, 177, 232, 0.864583) 12.5%, rgba(175, 177, 232, 0.717604) 41.15%, rgba(175, 177, 232, 0.406354) 78.65%, rgba(30, 33, 38, 0) 100%)" : "rgb(175, 177, 232)"}}>
+            <nav className='navbar' style={{boxShadow: scrollState === "top" ? "none" : "0 2px 2px -2px rgba(0,0,0,.2)"}}>
                   <div className='nav-container'>
-                            <img width='90px' src={logo} alt=''/>
+                            <img width='40px' src={logo} alt=''/>
                             <div className='menu-icon' onClick={handleClick}>
                                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                             </div>

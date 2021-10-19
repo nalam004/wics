@@ -1,49 +1,86 @@
 .App {
-  text-align: center;
-  
+  font-family: 'Varela', sans-serif;
 }
+
+section {
+  padding: 3rem;
+}
+
 .hero {
-  min-height: 100vh;
-  display: flex;
+  display: block;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: center;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align:  center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.img-mask {
+  width: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .purple {
   background-color: #AFB1E8;
 }
 
-h1 {
+h1, h2, h3{
   color: #56599E;
 }
 
-/*Scrollbar*/
+h2, h3, .copy, .blurb{
+  text-align: center;
+}
+
+p {
+  color: '#263238';
+  line-height: 25px;
+}
 
 /*Scrollbar*/
 
 ::-webkit-scrollbar{
-  width: 2vh;
+  width: 1vh;
 }
 
 ::-webkit-scrollbar-track{
   background: transparent;
-  /* box-shadow: inset 0 0 5px rgb(108, 67, 128);  */
   border-radius: 10px;
   margin-top: 10vh;
-  margin-bottom: 5vh;
-  width: 2vh;
+  width: 1vh;
 }
-
 
 ::-webkit-scrollbar-thumb{
-  background: #7071a3;
-  border-radius: 1.5vh;
-  width: 1.5vh;
-}
-
-::-webkit-scrollbar-thumb:hover{
   background: #56599E;
   border-radius: 10px;
+  width: 1.5vh;
 }
 
 ::-webkit-scrollbar-track-piece:start {
@@ -52,4 +89,53 @@ h1 {
 
 ::-webkit-scrollbar-track-piece:end {
   background: transparent;
+}
+
+/*Cards & Grid*/
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.collabs-grid {
+  display: grid;
+  grid-gap: 1rem;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.company {
+  width: 12rem;
+}
+
+.about-img {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .flex-container { display: block; }
+}
+
+@media (min-width: 900px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+button {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0 10px 0;
+  border: 1px solid #AFB1E8;
+  color: #56599E;
+}
+
+button:hover {
+  background-color: #AFB1E8;
+  color: white;
 }

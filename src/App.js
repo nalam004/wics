@@ -27,12 +27,12 @@ function App() {
     <div className="App">
       <Nav />
       <header className='hero'>
-        <div className='container'>
+        <div className='flex-container'>
           <div className='hero-text'> 
             <h1>The Future is Female</h1>
-            <p style={{color: '#56599E'}} className='about'>CCNY WiCS aims to create a community that 
+            <p>CCNY WiCS aims to create a community that 
             supports the advancement of women in Computer Science, academia, 
-            and in the industry‍CCNY WiCS aims to create a community that 
+            and in the industry‍. CCNY WiCS aims to create a community that 
             supports the advancement of women in Computer Science, academia, 
             and in the industry</p>
           </div>
@@ -45,47 +45,36 @@ function App() {
 
       <section id='members'>
         <div className='container'>
-          <h2 className='heading'>E-Board Members</h2>
-          <ul className='members-grid'>
-            <li><img src={grace} alt=''></img></li>
-            <li><img src={uzma} alt=''></img></li>
-            <li><img src={ange} alt=''></img></li>
-            <li><img src={lily} alt=''></img></li>
-            <li><img src={niharika} alt=''></img></li>
-            <li><img src={val} alt=''></img></li>
-            <li><img src={chidera} alt=''></img></li>
-          </ul>
+          <h2>E-Board Members</h2>
+          <div className='grid'>
+            <div><img className='img-mask' src={grace} alt=''></img></div>
+            <div><img className='img-mask' src={uzma} alt=''></img></div>
+            <div><img className='img-mask' src={ange} alt=''></img></div>
+            <div><img className='img-mask' src={lily} alt=''></img></div>
+            <div><img className='img-mask' src={niharika} alt=''></img></div>
+            <div><img className='img-mask' src={val} alt=''></img></div>
+            <div><img className='img-mask' src={chidera} alt=''></img></div>
+          </div>
         </div>
       </section>
 
       <section id='collabs' className='purple'>
         <div className='container'>
-          <h2 className='heading'>Past Collaborators</h2>
+          <h2>Past Collaborators</h2>
           <p className='blurb'>In the past we have invited professionals from top companies 
                   to give our members a chance to network and gain amazing opportunities at 
                   their dream company!</p>
-          <ul className='collabs-grid'>
-            <li><img src={one} alt=''></img></li>
-            <li><img src={two} alt=''></img></li>
-            <li><img src={three} alt=''></img></li>
-            <li><img src={four} alt=''></img></li>
-            <li><img src={five} alt=''></img></li>
-            <li><img src={six} alt=''></img></li>
-            <li><img src={seven} alt=''></img></li>
-            <li><img src={eight} alt=''></img></li>
-            <li><img src={nine} alt=''></img></li>
-            <li><img src={ten} alt=''></img></li>
-          </ul>
-        </div>
-      </section>
-
-      <section id='subscribe'>
-        <div className='container'>
-          <h2 className='heading'>Subscribe to our newsletter!</h2>
-          <p>Sign up to never miss out on opportunities and events.</p>
-          <div>
-            <input type="text" placeholder="Name" name="name" required />
-            <input type="submit" value="Subscribe" />
+          <div className='collabs-grid'>
+            <div><img className='company' src={one} alt=''></img></div>
+            <div><img className='company' src={two} alt=''></img></div>
+            <div><img className='company' src={three} alt=''></img></div>
+            <div><img className='company' src={four} alt=''></img></div>
+            <div><img className='company' src={five} alt=''></img></div>
+            <div><img className='company' src={six} alt=''></img></div>
+            <div><img className='company' src={seven} alt=''></img></div>
+            <div><img className='company' src={eight} alt=''></img></div>
+            <div><img className='company' src={nine} alt=''></img></div>
+            <div><img className='company' src={ten} alt=''></img></div>
           </div>
         </div>
       </section>

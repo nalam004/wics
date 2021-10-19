@@ -8,19 +8,19 @@ function Events() {
     <>
         <section id='events'>
             <div className='container'>
-                <h2 className='heading'>Upcoming Events</h2>
-                <div className='events-grid'>
+                <h2>Upcoming Events</h2>
+                <div className='grid'>
                     <div className='event-poster'>
-                        <div className='img-mask'><img src={event1} alt=''/></div>
-                        <a href='https://linktr.ee/ccny.wics' className='rsvp-btn'>RSVP</a>
+                        <div><img className='img-mask' src={event1} alt=''/></div>
+                        <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
-                        <div className='img-mask'><img src={event2} alt=''/></div>
-                        <a href='https://linktr.ee/ccny.wics' className='rsvp-btn'>RSVP</a>
+                        <div><img className='img-mask' src={event2} alt=''/></div>
+                        <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
-                        <div className='img-mask'><img src={event3} alt=''/></div>
-                        <a href='https://linktr.ee/ccny.wics' className='rsvp-btn'>RSVP</a>
+                        <div><img className='img-mask' src={event3} alt=''/></div>
+                        <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                 </div>
             </div>

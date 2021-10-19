@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #AFB1E8;
+    background-color: white;
       height: 70px;
       display: flex;
       justify-content: center;
@@ -33,7 +33,7 @@
 
 
   .nav-link {
-      color: white;
+      color: #263238;
       display: flex;
       align-items:stretch;
       text-decoration: none;
@@ -60,7 +60,7 @@
     
   .nav-link:hover {
       color: #56599E;
-      border: 2px solid white;
+      border: 2px solid #56599E;
       border-left: 0;
       border-right: 0;
       border-top: 0;
