@@ -11,15 +11,15 @@ function Events() {
                 <h2>Upcoming Events</h2>
                 <div className='grid'>
                     <div className='event-poster'>
-                        <div><img className='img-mask' src={event1} alt=''/></div>
+                        <div><img className='img-mask poster' src={event1} alt=''/></div>
                         <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
-                        <div><img className='img-mask' src={event2} alt=''/></div>
+                        <div><img className='img-mask poster' src={event2} alt=''/></div>
                         <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
-                        <div><img className='img-mask' src={event3} alt=''/></div>
+                        <div><img className='img-mask poster' src={event3} alt=''/></div>
                         <a href='https://linktr.ee/ccny.wics'><button>RSVP</button></a>
                     </div>
                 </div>

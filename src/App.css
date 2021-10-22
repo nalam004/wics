@@ -125,6 +125,11 @@ p {
   width: 100%;
 }
 
+.poster {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 @media (min-width: 600px) {
   .grid { grid-template-columns: repeat(1, 1fr); }
 }
@@ -143,6 +148,8 @@ button {
   padding: 10px 0 10px 0;
   border: 1px solid #AFB1E8;
   color: #56599E;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 button:hover {
