@@ -2,17 +2,15 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 1rem;
+    padding-top: 20px;
     list-style: none;
     justify-content: center;
 }
   
-.footer-item {
-    height: 30px;
-}
-
 .input {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
   
 input {
@@ -25,17 +23,22 @@ input:focus {
 }
     
 #email {
-    width: 80%;
+    width: 30%;
     font-family: inherit;
     color: #737373;
-    text-indent: 2%;
+    text-indent: 3%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
   
 #submit {
-    width: 20%;
+    padding: 11px;
+    letter-spacing: 1px;
     background: #AFB1E8;
     font-weight: bold;
     cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
     
 #submit:hover {

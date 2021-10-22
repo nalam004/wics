@@ -32,9 +32,7 @@ function App() {
             <h1>The Future is Female</h1>
             <p>CCNY WiCS aims to create a community that 
             supports the advancement of women in Computer Science, academia, 
-            and in the industry‍. CCNY WiCS aims to create a community that 
-            supports the advancement of women in Computer Science, academia, 
-            and in the industry</p>
+            and in the industry‍.</p>
           </div>
           <div className='img-mask'><img src={hero} alt=''/></div>
         </div>
@@ -61,7 +59,7 @@ function App() {
       <section id='collabs' className='purple'>
         <div className='container'>
           <h2>Past Collaborators</h2>
-          <p className='blurb'>In the past we have invited professionals from top companies 
+          <p className='copy'>In the past we have invited professionals from top companies 
                   to give our members a chance to network and gain amazing opportunities at 
                   their dream company!</p>
           <div className='collabs-grid'>

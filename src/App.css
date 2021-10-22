@@ -2,6 +2,10 @@
   font-family: 'Varela', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   padding: 3rem;
 }
@@ -55,7 +59,13 @@ h1, h2, h3{
   color: #56599E;
 }
 
-h2, h3, .copy, .blurb{
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+h2, h3, .copy {
   text-align: center;
 }
 

@@ -4,10 +4,10 @@ import './Footer.css'
 function Footer() {
     return (
     <>
-        <section id='subscribe'>
+        <footer id='subscribe'>
                     <div className='footer-container'>
                         <h2>Subscribe to our newsletter!</h2>
-                        <p className='blurb'>Sign up to never miss out on opportunities and events.</p>
+                        <p className='copy'>Sign up to never miss out on opportunities and events.</p>
                     
                         <form action="#" method="post" name="sign up">
                             <div className="input">
@@ -42,7 +42,7 @@ function Footer() {
                         </div>                 
                     </div>   
                     <p className='copy'>Copyright &copy; 2021 CCNY Wics.  All Rights Reserved</p>
-        </section> 
+        </footer> 
     </>
   )
 }

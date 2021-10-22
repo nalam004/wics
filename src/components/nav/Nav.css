@@ -1,17 +1,14 @@
 .navbar {
     background-color: white;
-      height: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1rem;
-      position: sticky;
-      top: 0;
-      z-index: 999;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 
-
-    
   .nav-container {
       display: flex;
       justify-content: center;
@@ -29,54 +26,22 @@
       justify-content: end;
   }
 
-
-
-
   .nav-link {
       color: #263238;
       display: flex;
       align-items:stretch;
       text-decoration: none;
       cursor: pointer;
-      padding: .2rem 1rem;
-      border: 2px solid rgba(255, 255, 255, 0);
-      border-left: 0;
-      border-right: 0;
-      border-top: 0;
-      height: 80%;
-      letter-spacing: .1rem;
-      transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
-      cursor: pointer;
-      user-select: none;
-
+      padding: .1rem 1rem;
+      border-bottom: 2px solid rgba(255, 255, 255, 0);
+      height: 100%;
+      letter-spacing: .1rem;	
   }
-
-  /* .nav-link:before, .nav-link:after {
-    content: '';
-    position: absolute;	
-    transition: inherit;
-    z-index: -1;
-  } */
     
   .nav-link:hover {
       color: #56599E;
-      border: 2px solid #56599E;
-      border-left: 0;
-      border-right: 0;
-      border-top: 0;
+      border-bottom: 2px solid #56599E;
   }
-/* 
-  .nav-link:hover:before {
-    transition-delay: 0s;
-  }
-
-  .nav-link:hover:after {
-    transition-delay: .35s;
-  } */
-    
-
-  
-
 
   .fa-bars {
       color: #56599E;
@@ -90,16 +55,19 @@
       .NavbarItems {
         position: relative;
       }
-    
+
+      .navbar {
+        justify-content: space-between;
+        padding: 1rem;
+      }
       .nav-menu {
         display: flex;
         flex-direction: column;
         grid-gap: 0;
-        width: 35%;
+        width: 160px;
         position: absolute;
         top: 50px;
         right: 100%;
-        opacity: 1;
         transition: all 0.5s ease;
         margin-right: 5px;
       }
@@ -111,12 +79,12 @@
         right: 0;
         transition: all 0.5s ease;
         z-index: 1;
+        padding-left: 0;
       }
     
       .nav-link {
-        text-align: center;
+        text-align: left;
         padding: 20px;
-        width: 100%;
         display: table;
         color: #F7F4E6;
       }
@@ -131,14 +99,13 @@
         display: block;
         position: absolute;
         top: 0;
+        margin-top: 1rem;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.0rem;
         cursor: pointer;
       }
     
       .fa-times {
         color: #AFB1E8;
-        font-size: 1rem;
       }
   }

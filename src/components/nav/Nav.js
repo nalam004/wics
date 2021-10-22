@@ -32,7 +32,7 @@ function Nav() {
     <>
             <nav className='navbar' style={{boxShadow: scrollState === "top" ? "none" : "0 2px 2px -2px rgba(0,0,0,.2)"}}>
                   <div className='nav-container'>
-                            <img width='40px' src={logo} alt=''/>
+                            <img className='logo' width='40px' src={logo} alt=''/>
                             <div className='menu-icon' onClick={handleClick}>
                                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                             </div>
