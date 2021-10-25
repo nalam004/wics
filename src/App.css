@@ -10,6 +10,14 @@ section {
   padding: 3rem;
 }
 
+#collabs {
+  padding: 0.5rem;
+}
+
+#members, #events {
+  padding-top: 0;
+}
+
 .hero {
   display: block;
   -webkit-box-align: center;
@@ -110,6 +118,13 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.team {
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 .collabs-grid {
   display: grid;
   grid-gap: 1rem;
@@ -118,11 +133,15 @@ p {
 }
 
 .company {
-  width: 12rem;
+  width: 6rem;
 }
 
 .about-img {
   width: 100%;
+}
+
+.team-pics {
+  border-radius: 5px;
 }
 
 .poster {
@@ -156,3 +175,4 @@ button:hover {
   background-color: #AFB1E8;
   color: white;
 }
+
