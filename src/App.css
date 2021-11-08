@@ -24,18 +24,16 @@ section {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 5rem 5rem 5rem;
+  padding: 5rem;
 }
 
 .flex-container {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-align:  center;
   -webkit-align-items: center;
@@ -43,21 +41,21 @@ section {
   align-items: center;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
 }
 
 .img-mask {
   width: 100%;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0.5 auto;
-  -ms-flex: 0 0.5 auto;
-  flex: 0 0.5 auto;
+  -webkit-flex: 0 0 auto;
+  flex: 0 auto;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 50%;
   object-position: 50% 50%;
 }
+
+.hero-img { width: 100%; }
 
 .purple {
   background-color: #AFB1E8;

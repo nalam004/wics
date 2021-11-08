@@ -36,7 +36,7 @@ function App() {
             supports the advancement of women in Computer Science, academia, 
             and in the industry‍.</p>
           </div>
-          <div className='img-mask'><img src={hero} alt=''/></div>
+          <div className='img-mask'><img  className='hero-img' src={hero} alt=''/></div>
         </div>
       </header>
 
@@ -47,16 +47,16 @@ function App() {
                 <h2>Upcoming Events</h2>
                 <div className='grid'>
                     <div className='event-poster'>
-                        <div><img className='img-mask poster' src={event2} alt=''/></div>
-                        <a target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLSeCqUGQ3E0qUjwskZmCmDD8kYDJrqgDLzgrVu0XibeK_XzPGQ/viewform'><button>RSVP</button></a>
+                        <div><img className='img-mask poster' src={event1} alt=''/></div>
+                        <a rel="noreferrer" target="_blank" href='bit.ly/FALL21-tech-chat'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
-                        <div><img className='img-mask poster' src={event1} alt=''/></div>
-                        <a target="_blank" href='https://www.hackerrank.com/ccny-wics-coding-challenge'><button>RSVP</button></a>
+                        <div><img className='img-mask poster' src={event2} alt=''/></div>
+                        <a rel="noreferrer" target="_blank" href='https://www.hackerrank.com/ccny-wics-coding-challenge'><button>RSVP</button></a>
                     </div>
                     <div className='event-poster'>
                         <div><img className='img-mask poster' src={event3} alt=''/></div>
-                        <a target="_blank" href='https://docs.google.com/forms/d/1TctQ0jy5IGBVk_k1pSzrKE25z7wnGY16Njc88uCYGfM/viewform?edit_requested=true'><button>RSVP</button></a>
+                        <a rel="noreferrer" target="_blank" href='https://docs.google.com/forms/d/1TctQ0jy5IGBVk_k1pSzrKE25z7wnGY16Njc88uCYGfM/viewform?edit_requested=true'><button>RSVP</button></a>
                     </div>
                 </div>
             </div>

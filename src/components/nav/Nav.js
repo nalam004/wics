@@ -7,11 +7,10 @@ function Nav() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     
-    let listener = null
     const [scrollState, setScrollState] = useState("top")
 
     useEffect(() => {
-        listener = document.addEventListener("scroll", e => {
+        let listener = document.addEventListener("scroll", e => {
         var scrolled = document.scrollingElement.scrollTop
         if (scrolled >= 120) {
             if (scrollState !== "not_top") {

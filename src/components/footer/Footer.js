@@ -18,25 +18,25 @@ function Footer() {
                     </div>
                     <div className='footer-menu'>
                         <div className='footer-item'>
-                            <a target="_blank" href="mailto: wicsccny@gmail.com">
+                            <a rel="noreferrer" target="_blank" href="mailto: wicsccny@gmail.com">
                             <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/gmail.png" alt=""/>
                             </a>
                         </div>
 
                         <div className='footer-item'>
-                            <a target="_blank" href="https://www.instagram.com/wics.ccny/?hl=en">
+                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/wics.ccny/?hl=en">
                             <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/instagram-new--v1.png" alt=""/>
                             </a>
                         </div>
                         
                         <div className='footer-item'>
-                            <a target="_blank" href="https://www.facebook.com/groups/ccnywics">
+                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/groups/ccnywics">
                             <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/facebook.png" alt=""/>
                             </a>
                         </div> 
                         
                         <div className='footer-item'>
-                            <a target="_blank" href="https://www.linkedin.com/company/women-in-computer-science-at-ccny/">
+                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/women-in-computer-science-at-ccny/">
                             <img width='50px' src="https://img.icons8.com/carbon-copy/400/56599E/linkedin.png" alt=""/>
                             </a>
                         </div>                 
